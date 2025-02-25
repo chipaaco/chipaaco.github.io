@@ -1,0 +1,77 @@
+:root {
+  --color-base: #f0f8f0; /* Verde muy claro, similar al fondo */
+  --color-text: #333; /* Gris oscuro para el texto */
+  --color-links: #0000ff; /* Azul para los enlaces */
+}
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-text);
+  font-family: monospace; /* Fuente monoespaciada para imitar Gemini */
+  margin: 0; /* Margen alrededor del contenido */
+  padding: 0;
+  line-height: 1.4; /* Espaciado entre líneas para mejor legibilidad */
+  max-width: 1024px;
+  margin: auto;
+}
+
+.container {
+  max-width: 440px;
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: var(--color-text);
+  margin-top: 30px; /* Espacio superior más grande para separar secciones */
+  margin-bottom: 10px; /* Espacio inferior */
+  font-weight: bold; /* Título en negrita */
+}
+
+h1 {
+  font-size: 1.8em; /* Tamaño para h1 */
+}
+
+h2 {
+  font-size: 1.4em; /* Tamaño para h2 */
+}
+
+h3 {
+  font-size: 1.2em; /* Tamaño para h3 */
+}
+
+p {
+  margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+a {
+  color: var(--color-links);
+  text-decoration: none; /* Sin subrayado por defecto */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+pre {
+  font-family: monospace; /* Asegurar monoespaciado en <pre> */
+  white-space: pre-wrap; /* Permite que el texto largo se ajuste a la línea */
+}
+
+/* Variaciones de color (ejemplo, puedes ajustarlas) */
+/* Si quisieras un tono base diferente, modifica --color-base */
+/* y estas variaciones se pueden ajustar para que armonicen */
+
+/* Ejemplo de cómo podrías usar variaciones si las necesitaras en el futuro */
+/*
+:root {
+  --color-base-hue: 120;  // Hue verde (0-360)
+  --color-base-saturation: 20%; // Saturación
+  --color-base-lightness: 95%; // Luminosidad
+
+  --color-base: hsl(var(--color-base-hue), var(--color-base-saturation), var(--color-base-lightness));
+  --color-base-lighter: hsl(var(--color-base-hue), var(--color-base-saturation), calc(var(--color-base-lightness) + 5%));
+  --color-base-darker: hsl(var(--color-base-hue), var(--color-base-saturation), calc(var(--color-base-lightness) - 5%));
+  --color-text: #333;
+  --color-links: #0000ff;
+}
+*/
