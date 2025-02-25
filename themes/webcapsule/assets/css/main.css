@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
   --color-base: #f0f8f0; /* Verde muy claro, similar al fondo */
   --color-text: #333; /* Gris oscuro para el texto */
@@ -24,11 +26,12 @@ h1, h2, h3 {
   color: var(--color-text);
   margin-top: 30px; /* Espacio superior más grande para separar secciones */
   margin-bottom: 10px; /* Espacio inferior */
-  font-weight: bold; /* Título en negrita */
+  font-weight: 400; /* Título en negrita */
+  font-family: "Comic Neue", serif;
 }
 
 h1 {
-  font-size: 1.8em; /* Tamaño para h1 */
+  font-size: 1.4em; /* Tamaño para h1 */
 }
 
 h2 {
