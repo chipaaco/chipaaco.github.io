@@ -15,8 +15,8 @@ rabbit-hole hugo theme
 
 ## Navegación del Sitio
 
-{{< link href="/scratchpad/" >}}
-Scratchpad
+{{< link href="/notebooks/" >}}
+Cuadernos
 {{< /link >}}
 
 {{< link href="/blog/" >}}
