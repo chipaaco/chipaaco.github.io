@@ -5,10 +5,10 @@ draft = false
 
 Acá guardo la teca:
 
-{{< link href="/facultad/" >}}
+{{< link href="facultad/" >}}
 Apuntes de la facultad
 {{< /link >}}
 
-{{< link href="/software/" >}}
+{{< link href="software/" >}}
 Cosas relacionadas al Software
 {{< /link >}}
