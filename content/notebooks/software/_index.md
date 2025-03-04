@@ -3,7 +3,9 @@ title = "Software"
 draft = false
 +++
 
-Todo lo relacionado al software:
+Taxonomías relacionadas al software:
+
+## Unix Workbench
 
 {{< link href="linuxjourney/" >}}
 Linux Journey
@@ -19,4 +21,18 @@ SSH GPG
 
 {{< link href="email/" >}}
 Email
+{{< /link >}}
+
+## Agnostic Programmer
+
+{{< link href="taocp/" >}}
+TAOCP
+{{< /link >}}
+
+{{< link href="modern-computer-architecture/" >}}
+Modern Computer Architecture
+{{< /link >}}
+
+{{< link href="mate-simp/" >}}
+Matemáticas Simplificadas
 {{< /link >}}

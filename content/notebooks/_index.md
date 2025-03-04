@@ -12,3 +12,7 @@ Apuntes de la facultad
 {{< link href="software/" >}}
 Cosas relacionadas al Software
 {{< /link >}}
+
+{{< link href="interpersonales/" >}}
+Interpersonales
+{{< /link >}}

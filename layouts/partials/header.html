@@ -1,7 +1,22 @@
+{{ if not .IsHome }}
+  {{ $parent := .Parent }}
+  {{ if $parent }}
+      <a href="{{ $parent.Permalink }}">→ Volver</a>
+  {{ end }}
+{{ end }}
+
+{{ if not .IsHome }}
+<marquee><p>chipaa.co</p></marquee>
+{{ else }}
+<marquee>
 <pre>
  _|_ o._  _. _. _ _
 (_| |||_)(_|(_|(_(_)
       |
-</pre>
+</pre>     
+</marquee>
+{{ end }}
+
+
 
 <h1>{{ .Title }}</h1>
