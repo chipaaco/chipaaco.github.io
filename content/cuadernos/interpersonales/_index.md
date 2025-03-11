@@ -33,3 +33,7 @@ Por taxonomías y eso...
 
 - Convivencia
 - Convivencia en entornos hostiles
+- carísma y negociación (suena grone, lo sé, simplemente quiero hacer un research)
+- Cómo no ser monótono en el día a día, tener temas de conversación, etc.
+- Cómo ser agradable, simpático, y si est posible gracioso.
+- Cómo interactuar irl sin parecer raro

@@ -13,6 +13,14 @@ Apuntes de la facultad
 Cosas relacionadas al Software
 {{< /link >}}
 
+{{< link href="game-dev/" >}}
+Desarrollo Videojuegos
+{{< /link >}}
+
 {{< link href="interpersonales/" >}}
 Interpersonales
+{{< /link >}}
+
+{{< link href="fitness/" >}}
+Fitness
 {{< /link >}}

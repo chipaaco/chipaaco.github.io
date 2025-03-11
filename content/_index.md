@@ -11,7 +11,7 @@ rabbit-hole hugo theme
 
 ## Navegación del Sitio
 
-{{< link href="/notebooks/" >}}
+{{< link href="/cuadernos/" >}}
 Cuadernos
 {{< /link >}}
 
