@@ -135,4 +135,142 @@ multiplying by delta = time-dependent rather than frame-dependent
 
 confusing? next you'll learn: speed, acceleration, motion.
 
+## 12. Using Variables to Make Code Easier to Read
+
+outside func vars = script-wide
+
+inside func
+
+## 13. Conditions
+
+make ur code branch in two parts.
+
+when checks a condition = to evaluate (true or false)
+
+{{< pre >}}
+func heal(amount):
+    health += amount
+    if health > 100: # If health is greater than 100
+        health = 100 # Set health to 100
+{{< /pre >}}
+
+< > == !=
+
+{{< pre >}}
+if health != 7:
+    pass # is a placeholder
+else:
+    print("Ahhh!"
+{{< /pre >}}
+
+## 14. Multiplying
+
+## 15. 2D Vectors 
+
+What are vectors?
+
+A vector, in physics, is a quantity with a magnitude and a direction. For example,
+a force applied to some object, the velocity (speed and direction) of a character,
+and so on.
+
+We often represent this quantity with an arrow.
+
+In Godot, 2D vectors are a common value type named Vector2,
+
+Unlike plain numbers, they store two decimal numbers: one for the X coordinate
+and one for the Y coordinate.
+
+scale and position use Vector2,
+
+{{< pre >}}
+func level_up():
+    scale.x += 0.2
+    scale.y += 0.2
+{{< /pre >}}
+
+{{< pre >}}
+func move():
+    position += Vector2(20, 20) 
+{{< /pre >}}
+
+reset_robot()
+
+## 16. Introduction to While Loops
+
+functions -> reuse code
+loops     -> repeat code
+
+{{< pre >}}
+var number = 0
+while number < 4:
+    print(number)
+    number += 1
+{{< /pre >}}
+
+We use while loops every time we need to loop an unknown number of times.
+
+## 17. Introduction to For Loops
+
+Unlike while loops, for loops don't run infinitely, so it's much less likely that you'll get bugs in your game. We recommend favoring for loops over while loops because of this.
+
+{{< pre >}}
+for number in range(3):
+    print(number)
+{{< /pre >}}
+
+Calling range(n) creates a list of numbers from 0 to n - 1.
+
+{{< pre >}}
+range(3)
+output: [0, 1, 2]
+{{< /pre >}}
+
+number: temporary var, name it anythin you want
+
+arrays:
+for element in [0, 1, 2]:
+
+{{< pre >}}
+func move_to_end():
+    for number in range(board_size.x -1):
+        cell.x += 1
+{{< /pre >}}
+
+## 18. Creating arrays
+
+Array: list of values, numbers, etc.
+
+for loop unwrapped
+
+{{< pre >}}
+func run():
+    var array = [0, 1, 2]
+    var element
+
+    element = array[0]
+    print(element)
+
+    element = array[1]
+    print(element)
+
+    element = array[2]
+    print(element)
+{{< /pre >}}
+
+{{< pre >}}
+var numbers = [1, 2, 6, 7]
+var vectors_and_numbers = [Vector2(0,0), Vector2(4, 3), 5, -1.0]
+{{< /pre >}}
+
+## 19. Looping over arrays
+
+* In a condition, the in keyword check if valie exist in array
+* array's append() func, adds new value to the end of array
+
+## 20. Strings
+
+under the hood, are arrays of characters, u can use in loops.
+
+## 21. Functions that return a value
+
 
