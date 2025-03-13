@@ -273,4 +273,51 @@ under the hood, are arrays of characters, u can use in loops.
 
 ## 21. Functions that return a value
 
+round()
+
+lerp() -> linear interpolate
+
+return keyword
+
+example tramboliko
+
+## 22. Appending and popping values from arrays
+
+as certain value types can have sub-variables, also can have functions
+
+append() pop_front() -> this last, can have a temporary var
+pop_back()
+
+some arrays are a queue
+
+## 23. Accessing values in arrays
+
+array_name[index]
+
+array_name.size()
+
+## 24. Creating Dictionaries
+
+with just an array, cannot keep track of each item.
+
+dictionary = allows to map pairs of values.
+
+aka: mappings or associative arrays
+
+{{< pre >}}
+var dictionary = {
+    key1: value_1,
+    key2: value_2,
+{{< /pre >}}
+
+explains: how they works under hood
+
+dictionary[key]
+
+inventory["healing heart"] += 1
+
+## 25. Looping over dictionaries
+
+key() method or member function
+
 
