@@ -3,9 +3,7 @@ title = "AED Clases"
 draft = false
 +++
 
-14-03-25 | Clase Inaugural
-
----
+# 14-03-25 | Clase Inaugural
 
 ## equipo de la cátedra:
 
@@ -24,7 +22,7 @@ tarde
 
 ---
 
-material de estudio, tendrá modificaciones
+el material de estudio tuvo modificaciones para mejor.
 
 ---
 
@@ -68,6 +66,12 @@ dijeron que el primer parcial lo aprueban solo el 15% de estudiantes. dieron tip
 
 modalidad de cursado híbrida para recursantes
 
+{{< linke href="https://gist.github.com/chipaaco/b37baa54f1332e8ceeabc42063c40762">}}
+mandaron un correo
+{{< /linke >}}
+
 ---
 
 la semana que viene o la otra deberia estar el campus para la mayoria, si no estás para Abril, ir a llenar el formulario,
+
+# x | Primera clase teoría
