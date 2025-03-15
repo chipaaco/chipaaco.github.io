@@ -320,4 +320,16 @@ inventory["healing heart"] += 1
 
 key() method or member function
 
+## 26. Value types
+
+str(), int() float()
+
+## 27. Specifying types with type hints
+
+var cell_size: Vector2 = Vector2(50.0, 50.0)
+
+type inference
+
+:=
+
 
